@@ -1,0 +1,104 @@
+/* Center align the entire form */
+#garageSaleForm {
+  text-align: center;
+}
+
+/* Style for the receipt container */
+#receipt {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  background-color: #0b79d9b6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #3498db;
+  border-radius: 5px;
+}
+
+/* Style for the receipt title */
+#receipt h2 {
+  text-align: center;
+  color: #000407;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the table */
+#receipt table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style for table headings */
+#receipt th {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Style for table cells */
+#receipt td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  font-size: 16px;
+}
+
+/* Style for the receipt total row */
+#receipt .total {
+  font-weight: bold;
+}
+
+/* Style for error messages */
+#errorMessages {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Style for the form container */
+#formContainer {
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid #3498db;
+  border-radius: 5px;
+}
+
+/* Style for the form heading */
+#formContainer h1 {
+  color: #3498db;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for form labels */
+#formContainer label {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Style for form inputs */
+#formContainer input[type="text"],
+#formContainer input[type="email"],
+#formContainer input[type="checkbox"],
+#formContainer input[type="button"] {
+  /* width: 100%; */
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style for the calculate button */
+#formContainer #calculateButton {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}

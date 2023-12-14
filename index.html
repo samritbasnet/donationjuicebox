@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Garage Sale Fundraiser</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+        <div id="formContainer">
+            <h1>Garage Sale Fundraiser</h1>
+            <form id="garageSaleForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Full Name"  /><br /><br />
+      
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Email" /><br /><br />
+      
+            <label for="creditCard">Credit Card:</label>
+            <input type="text" id="creditCard" placeholder="xxxx-xxxx-xxxx-xxxx" /><br /><br />
+      
+              <label for="expmonth">Credit Card Expiry Month:</label>
+              <input id="expmonth" name="expmonth" placeholder="MMM" /></br></br>
+         
+              <label for="expyear">Credit Card Expiry Year:</label>
+              <input id="expyear" name="expyear" placeholder="YYYY" /></br></br>
+      
+      
+            <!-- List of available items -->
+            <label>Select Items to Buy:</label><br />
+            <input type="checkbox" id="item1" class="item" value="MACBOOK" /> Macbook<br />
+            <input type="checkbox" id="item2" class="item" value="SSD" /> SSD<br />
+            <input type="checkbox" id="item3" class="item" value="GOPRO" /> Gopro<br />
+            <input type="checkbox" id="item4" class="item" value="DSLR" /> DSLR<br />
+            <input type="checkbox" id="item5" class="item" value="HDMI" /> HDMI<br />
+      
+            <label for="itemQuantity">Quantity:</label>
+            <input type="text" id="itemQuantity" /><br /><br />
+      
+            <button type="button" id="calculateButton">Checkout</button>
+    </div>
+     
+    </form>
+
+    <!-- Display errors here -->
+    <div id="errorMessages"></div>
+
+    <!-- Display receipt here -->
+    <div id="receipt"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
